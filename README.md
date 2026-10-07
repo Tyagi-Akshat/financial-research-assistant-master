@@ -3,11 +3,6 @@
 An agentic RAG system that answers complex questions over SEC financial filings by coordinating
 four specialised agents, with a built-in reliability evaluation layer, deployed on AWS.
 
-> **Resume line (fill in your numbers after running eval):**
-> *Built an agentic RAG system (LangGraph) performing retrieval over [N] SEC filings with a dedicated
-> verifier agent for answer groundedness; developed a RAGAS evaluation harness that measured faithfulness
-> and cut hallucination rate from [X]% → [Y]%; deployed on AWS (EC2, ECR, S3, Terraform, GitHub Actions CI/CD).*
-
 ---
 
 ## Architecture
@@ -70,7 +65,7 @@ User Query
 ### 2. Install
 
 ```bash
-git clone <your-repo>
+git clone Tyagi-Akshat/financial-research-assistant-master
 cd financial-research-assistant
 python -m venv .venv
 .venv\Scripts\activate        # Windows
